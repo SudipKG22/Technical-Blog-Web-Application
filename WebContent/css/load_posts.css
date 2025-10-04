@@ -1,0 +1,26 @@
+
+
+/* Force all card images to be same size and nicely cropped */
+.card-img-top {
+    height: 200px;
+    object-fit: contain;
+    width: 100%;
+}
+
+/* Ensure card body content has minimum height for uniformity */
+.card-body p {
+    min-height: 80px; /* Adjust as needed */
+    overflow: hidden;
+}
+
+/* Optional: consistent card height */
+.card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Make card footer stick to bottom when content is short */
+.card-footer {
+    margin-top: auto;
+}

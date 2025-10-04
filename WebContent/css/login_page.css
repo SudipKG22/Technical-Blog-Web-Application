@@ -1,0 +1,74 @@
+/* Base body styling */
+body {
+    background-color: rgb(128, 128, 192);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Custom background for the banner */
+.banner-background {
+    background-color: rgb(64, 128, 128);
+    clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 91%, 63% 100%, 22% 91%, 0 99%, 0 0);
+    color: white;
+    padding-top: 20px;
+}
+
+/* Card styling */
+.card {
+    width: 100%;
+    max-width: 420px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.card-header {
+    background-color: rgb(128, 128, 255);
+    font-size: 1.3rem;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Card body and form controls */
+.card-body {
+    padding: 30px;
+}
+
+.form-control {
+    border-radius: 6px;
+    box-shadow: none;
+    transition: border 0.3s;
+}
+
+.form-control:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+}
+
+/* Submit button */
+.btn-primary {
+    background-color: rgb(128, 128, 255);
+    border: none;
+    padding: 10px 25px;
+    font-size: 1.1rem;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: rgb(0, 128, 255);
+}
+
+/* Label color fix */
+label {
+    color: #212529 !important;
+}
+
+/* Responsive spacing */
+@media (max-width: 768px) {
+    .card {
+        margin: 20px;
+    }
+}

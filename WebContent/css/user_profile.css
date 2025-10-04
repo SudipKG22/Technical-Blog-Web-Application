@@ -1,0 +1,67 @@
+/* Modal Custom Styles */
+.modal-content {
+    background: #ffffff;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.modal-header {
+    background-color: #007bff;
+    color: #fff;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 16px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.modal-title {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.modal-body {
+    padding: 24px;
+}
+
+.form-control {
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.15rem rgba(0, 123, 255, 0.3);
+}
+
+.form-group label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.btn-outline-primary {
+    padding: 10px 24px;
+    font-weight: 500;
+    border-radius: 25px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Blur background when modal is open */
+body.modal-open::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(4px);
+    z-index: 1040;
+}

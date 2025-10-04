@@ -1,0 +1,90 @@
+/* General body styling */
+body {
+    background-color: rgb(128, 128, 192);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Custom background for the banner */
+.banner-background {
+    background-color: rgb(64, 128, 128); /* Light green */
+    clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 91%, 63% 100%, 22% 91%, 0 99%, 0 0);
+    color: white;
+    padding-top: 20px;
+}
+
+/* Card styling */
+.card {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: rgb(128, 128, 255); /* Matching light green */
+    font-size: 1.3rem;
+    padding: 20px;
+}
+
+.card-body {
+    padding: 30px;
+}
+
+/* Input and textarea styles */
+.form-control {
+    border-radius: 6px;
+    box-shadow: none;
+    transition: border 0.3s;
+}
+
+.form-control:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+}
+
+/* Submit button */
+.btn-primary {
+    background-color: rgb(128, 128, 255);
+    border: none;
+    padding: 10px 25px;
+    font-size: 1.1rem;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: rgb(0, 128, 255);
+}
+
+/* Gender radio buttons */
+.form-group input[type="radio"] {
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+/* Terms checkbox label */
+.form-check-label {
+    font-size: 0.95rem;
+}
+
+/* Loader styling */
+#loader {
+    margin-top: 15px;
+}
+
+#loader span {
+    color: #28a745;
+}
+
+label,
+.form-check-label {
+    color: #212529 !important; /* Bootstrap default text-dark */
+}
+
+/* Specifically target gender label text */
+.form-group input[type="radio"] + label,
+.form-check-inline label {
+    color: #212529 !important;
+}
+
+
+

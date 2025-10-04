@@ -1,0 +1,106 @@
+/* Container */
+.container {
+    padding: 40px 15px;
+}
+
+/* Card Styling */
+.card {
+    border: none;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+/* Header Styling */
+.card-header {
+    background: linear-gradient(to right, #007bff, #00c6ff);
+    border-bottom: none;
+    padding: 20px;
+    border-radius: 15px 15px 0 0;
+}
+
+.post-title {
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0;
+    color: #fff;
+}
+
+/* Body Styling */
+.card-body {
+    padding: 25px;
+}
+
+.card-img-top {
+    border-radius: 10px;
+    max-height: 400px;
+    object-fit: cover;
+    width: 100%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.row-user {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-left: 5px solid #007bff;
+    border-radius: 8px;
+}
+
+.post-user-info {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.post-user-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.post-user-info a:hover {
+    text-decoration: underline;
+}
+
+.post-date {
+    font-style: italic;
+    font-size: 16px;
+    color: #666;
+    text-align: right;
+}
+
+/* Content */
+.post-content {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.post-code pre {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    overflow-x: auto;
+    font-family: 'Courier New', monospace;
+}
+
+/* Footer */
+.card-footer {
+    background-color: #007bff;
+    padding: 15px 20px;
+    border-radius: 0 0 15px 15px;
+    text-align: right;
+}
+
+.card-footer .btn {
+    margin-left: 10px;
+    border-radius: 30px;
+    font-weight: 500;
+}
+
+body {
+    background: url('../img/post-bg-3.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
